@@ -1,0 +1,33 @@
+{
+  "name": "keyword-wrangler",
+  "version": "0.0.1",
+  "description": "A tool to manage keywords",
+  "main": "src/backend/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaevespinoza/npm-test.git"
+  },
+  "author": "Javier Espinoza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaevespinoza/npm-test/issues"
+  },
+  "homepage": "https://github.com/jaevespinoza/npm-test#readme",
+  "dependencies": {
+    "async": "^3.1.0",
+    "bower": "^1.8.8",
+    "db-migrate": "^0.11.6",
+    "db-migrate-sqlite3": "^0.4.0",
+    "mysql": "^2.17.1",
+    "node-dbi": "^0.7.1",
+    "percolator": "^1.5.0"
+  },
+  "devDependencies": {
+    "jasmine-node": "^3.0.0",
+    "request": "^2.88.0",
+    "sqlite3": "^4.1.1"
+  }
+}
